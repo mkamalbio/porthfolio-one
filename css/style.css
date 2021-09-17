@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+.hr-style{
+    width: 50px;
+    border: 5px dotted black;
+    border-bottom: none;
+}
+/*================== Header section start =======================*/
+header{
+    background-image: url("../images/bg1.jpeg");
+    background-position: center;background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1% 10%;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    margin: 5px;
+    color: white;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: #AAAA9F;
+    color: white;
+    border-radius: 5px;
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-container h1{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+    padding: 10px;
+}
+/*================== Header section end =========================*/
+
+/*================== Features section start =====================*/
+#features{
+    padding: 5% 10%;
+    background-color: #FCFBF5;
+}
+#features .border-success{
+    border-color: violet !important;
+}
+#features .font-style{
+    background-color: thistle;
+    padding: 15px;
+    color: white;
+}
+#features .card{
+    transition: .4s;
+    background-color: #FCFBF5 !important;
+}
+#features .card:hover{
+    transform: scale(1.1);
+}
+/*================== Features section end =======================*/
+
+/*================== About section start ========================*/
+#about{
+    padding: 5% 10%;
+}
+#about .font-style{
+    background-color: thistle;
+    padding: 10px;
+    color: white;
+}
+#about p{
+    margin-bottom: 0;
+}
+#about a{
+    text-decoration: underline;
+    color: black;
+}
+/*================== About section end ========================*/
+/*================== Tutorial section end ========================*/
+#tutorial{
+    padding: 5% 10%;
+    background-color: #FCFBF5;
+}
+#tutorial .border-success{
+    border-color: violet !important;
+}
+#tutorial .card{
+    transition: .4s;
+}
+#tutorial .card:hover{
+    transform: scale(1.1);
+}
+/*================== Tutorial section end ========================*/
+/*================== Testimonial section start ===================*/
+#testmonial{
+    padding: 5% 10%;
+    background-color: thistle;
+}
+.carousel-item img{
+    width: 100px;
+    height: auto;
+}
+.carousel-item{
+  padding: 120px;
+  font-style: italic;
+}
+/*================== Testimonial section end =====================*/
+/*================== Contact section start =====================*/
+#contact{
+    padding: 5% 10%;
+    background-color: #FCFBF5;
+}
+#contact label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+/*================== Contact section end =====================*/
+footer{
+    padding: 1% 10%;
+}
+ 
+
+
+
+
+
+@media(max-width:767px){
+    .banner-container h1{
+        font-size: 1.5rem;
+    }
+}
